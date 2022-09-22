@@ -13,5 +13,4 @@ class SoilProcessor(BaseCSVProcessor):
             "om": "sum",
             "cec": "sum",
             "ph": "sum"
-        })
-        
+        }).reset_index()
